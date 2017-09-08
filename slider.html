@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Adding LEAD to a 60/40 Portfolio</title>
+  <meta charset="utf-8"/>
+  <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+  <script src='charts.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+    <script src="http://code.highcharts.com/highcharts-more.src.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/smoothness/jquery-ui.css">
+</head>
+  <body>
+<center>
+  <span style="font-family:'Open Sans'; vertical-align:middle; font-size: 18px; font-weight: bold">Adding LEAD to a 60/40 Portfolio</span><br /><br />
+  <div id="piecontainer" style="width: 30%; margin: 0 auto; display: inline-block;text-align: left"></div>
+  <div id="combinedcontainer" style="width: 30%; margin: 0 auto; display: none;text-align: right"></div>
+  <div id="linecontainer" style="width: 35%; margin: 0 auto; display: inline-block;text-align: left"></div>
+  <hr style="height: 1px; width: 60%" /><br />
+  <div style="width:10%; margin: 0 auto; display:inline-block; text-align:right; font-weight:bold; font-family:'Open Sans'; vertical-align:middle"> Traditional 60/40&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div><div id="slider" style="width: 30%; margin: 0 auto; display:inline-block; vertical-align: middle"></div><div style="width:10%; margin: 0 auto; display:inline-block; text-align:left; font-weight:bold; font-family:'Open Sans'; vertical-align:middle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; With 20% LEAD</div><div style="width:10%; margin: 0 auto; display:inline-block; text-align:left; font-weight:bold; font-family:'Open Sans'; vertical-align:middle"><select id="list">
+    <option id="blank" value="0" disabled="disabled" selected=yes>Optimal Scenarios</option>
+    <option id="optimalreturn" value="20">Optimal Return</option>
+    <option id="optimalrisk" value="20">Optimal Risk</option>
+    <option id="reset" value="0">Reset</option>
+  </select></div><br /><br />
+  <hr style="height: 1px; width: 60%" />
+  <div id="returncontainer" style="width: 35%; margin: 0 auto; display: inline-block"></div>
+  <div id="riskcontainer" style="width: 35%; margin: 0 auto; display: inline-block"></div>
+  <div id="sharpecontainer" style="width: 15%; margin: 0 auto; display: none"></div>
+  <div id="sortinocontainer" style="width: 15%; margin: 0 auto; display: none"></div><br /><br />
+  <span style="font-size:12px; font-family:'Open Sans'">FOR INTERNAL USE ONLY. Based on weekly returns since DIVY inception (Dec. 18, 2014) through Jun. 30, 2017.</span>
+</center>
+  </body>
+</html>
+
